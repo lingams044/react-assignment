@@ -145,10 +145,3 @@ const Registration = () => {
 };
 
 export default Registration;
-      <textarea placeholder="Address" onChange={(e) => setFormData({...formData, address: e.target.value})} />
-      <button type="submit" style={{ backgroundColor: 'blue', color: 'white', padding: '10px' }}>Submit</button>
-    </form>
-  );
-};
-
-export default Registration;
