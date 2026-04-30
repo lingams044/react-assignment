@@ -2,7 +2,7 @@
   "name": "stude",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lingams044.github.io/react-assignment/",
+  "homepage": "https://lingams044.github.io/react-assignment",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
