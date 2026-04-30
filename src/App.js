@@ -14,37 +14,37 @@ function App() {
         color: 'white',
         display: 'flex',
         gap: '30px',
-        justify: 'center',
-        box-shadow: '0 4px 15px rgba(102, 126, 234, 0.3)',
-        align-items: 'center'
+        justifyContent: 'center',
+        boxShadow: '0 4px 15px rgba(102, 126, 234, 0.3)',
+        alignItems: 'center'
       }}>
         <Link to="/" style={{
           color: 'white',
           margin: '0 15px',
-          font-weight: '600',
+          fontWeight: '600',
           transition: 'all 0.3s ease',
-          font-size: '1.1rem'
+          fontSize: '1.1rem'
         }} onMouseEnter={(e) => e.target.style.textShadow = '0 0 10px rgba(255,255,255,0.5)'}
            onMouseLeave={(e) => e.target.style.textShadow = 'none'}>Home</Link>
         <Link to="/register" style={{
           color: 'white',
           margin: '0 15px',
-          font-weight: '600',
+          fontWeight: '600',
           transition: 'all 0.3s ease',
-          font-size: '1.1rem'
+          fontSize: '1.1rem'
         }} onMouseEnter={(e) => e.target.style.textShadow = '0 0 10px rgba(255,255,255,0.5)'}
            onMouseLeave={(e) => e.target.style.textShadow = 'none'}>Register</Link>
         <Link to="/about" style={{
           color: 'white',
           margin: '0 15px',
-          font-weight: '600',
+          fontWeight: '600',
           transition: 'all 0.3s ease',
-          font-size: '1.1rem'
+          fontSize: '1.1rem'
         }} onMouseEnter={(e) => e.target.style.textShadow = '0 0 10px rgba(255,255,255,0.5)'}
            onMouseLeave={(e) => e.target.style.textShadow = 'none'}>About</Link>
       </nav>
 
-      <div style={{ padding: '20px', min-height: 'calc(100vh - 80px)' }}>
+      <div style={{ padding: '20px', minHeight: 'calc(100vh - 80px)' }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Registration />} />
